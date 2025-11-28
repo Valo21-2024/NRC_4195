@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%; /* 16px * 62.5% = 10px */
+}
+
+/* Footer general */
+.footer {
+  background-color: #222; /* Fondo oscuro para contraste */
+  color: white;
+  padding: 2rem 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Contenedor flexible para 3 columnas */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 120rem; /* antes 1200px */
+  margin: auto;
+  gap: 2rem;
+}
+
+/* Marca o logotipo */
+.footer-brand {
+  flex: 1;
+  min-width: 20rem; /* antes 200px */
+}
+
+.footer-logo {
+  width: 6rem; /* antes 60px */
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Enlaces legales */
+.footer-links {
+  flex: 1;
+  min-width: 20rem; /* antes 200px */
+}
+
+.footer-social{
+  max-width: 15px;
+  text-align: left;
+}
